@@ -1,0 +1,139 @@
+/* 
+index css and default initialize css
+*/
+html,body{
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    padding:0;
+    font-size: 24.5px;
+}
+.main{
+    margin: 0 auto;
+    width: 1170px;
+    height: 100vh;
+    background-color: white;
+    padding-top: 10px;
+}
+h2{
+    text-align:center;
+    font-family: 'STXinwei', Courier, monospace;
+    font-size:21px;
+    margin-top: 70px;
+}
+p{
+    font-style: italic;
+    font-family: 'Hanzipen SC';
+}
+.index-p{
+    padding:0 80px;
+    margin-top: 70px;
+    line-height: 29px;
+}
+.home{
+    padding: 0px 15px;
+    text-align: center;
+}
+.p1{
+    width:100%;
+}
+.ileft,.iright{
+    width: 50%;
+}
+.ileft{
+    float: left;
+}
+.iright{
+    float: right;
+}
+.linkabout{
+    margin-top: 60px;
+}
+.link{
+    font-size: 20px;
+    font-family: 'Hanzipen SC';
+}
+.link > span:hover,
+.icon > a:hover,
+.icon > a:hover i,
+.about-border:hover
+{
+    color: #fff;
+    background-color: lightblue;
+    border-color: lightblue;
+    cursor: pointer;
+
+}
+.about-border:hover i{
+    color:#fff;
+}
+.link > span,
+.about-border,
+.about-border i{
+    transition: all 0.4s ease-in-out;
+}
+.link > span{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    width: 170px;
+    margin-top: 20px;
+}
+i{
+    color: black;
+}
+
+.icon > a{
+    border: 1px solid black;
+    width:30px;
+    padding: 2.5px 5px;
+    text-decoration:none;
+    
+}
+.icon{
+    margin: 50px auto 0 auto;
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    width: 190px;
+}
+.weixin:hover img{ 
+    display: inherit;
+}
+.weixinpng{
+    position: absolute;
+    width: 250px;
+    height:250px;
+    top: -250px;
+    left: -30px;
+    display:none;
+}
+/* .index{
+    display: none;
+} */
+/* 
+about css
+*/
+.about{
+    margin: 0;
+}
+.about-right,
+.work-right{
+    margin: 40px 0 0 35px;
+}
+.about-self{
+    font-family: 'Yapi SC', Courier, monospace;
+    margin-top: 100px;
+}
+.about-border{
+    border: 1px solid black;
+    width: 100px;
+    padding: 3px 5px;
+    display: block;
+}
+.about-book,
+.work-self{
+    text-align: initial;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 17px;
+}
