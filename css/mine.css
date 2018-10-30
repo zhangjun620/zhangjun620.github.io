@@ -1,0 +1,132 @@
+/* 
+index css and default initialize css
+*/
+/* public */
+html,body{
+    font-size: 24.5px;
+    margin: 0;
+    padding:0;
+    background-color: pray;
+}
+.pc {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 40px;
+    display: grid;
+    background-color: #fff;
+}
+.about-right,
+.work-right,
+.contact-right
+{
+    margin: 0 0 0 50px;
+}
+/* public end */
+
+/* index  */
+.ileft,
+.iright {
+    grid-row: 1/2;
+}
+.iright {
+    width: 600px;
+    text-align: center;
+    font-family: 'STXinwei', Courier, monospace;
+    height: 700px;
+}
+p {
+    font-style: italic;
+    font-family: 'Hanzipen SC';
+}
+.index-p {
+    padding:0 80px;
+    margin: 70px 0 70px 0;
+}
+
+/* index right three select*/
+.f-select{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 200px;
+}
+.link{
+    border: 1px solid ;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Hanzipen SC';
+}
+
+/* three icons  */
+.icon > a{
+    border: 1px solid black;
+    width:30px;
+    padding: 2.5px 5px;
+    text-decoration:none;
+}
+.icon{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 190px;
+    margin: 40px 0;
+    padding: 0 200px;
+}
+i{
+    color: black;
+}
+
+/* transition */
+
+.link:hover,
+.icon > a:hover,
+.icon > a:hover i ,
+.about-border:hover
+{
+    color: #fff;
+    background-color: lightblue;
+    border-color: lightblue;
+    cursor: pointer;
+
+}
+.link,
+.about-border,
+.about-border i{
+    transition: all 0.4s ease-in-out;
+}
+
+/* three icons hover */
+.about-border:hover i{
+    color:#fff;
+}
+
+.weixin:hover img{ 
+    display: inherit;
+}
+.weixinpng{
+    
+    display:none;
+}
+
+/* about */
+
+.about-border{
+    display: block;
+    text-align: left;
+    border: 1px solid;
+    width:80px;
+    padding: 3px 10px;
+}
+.about-self{
+    margin-top: 70px;
+}
+
+.ul-font{
+    margin-top: 70px;
+    font-size:17px ;
+    text-align: left;
+    line-height: 30px;
+}
+
